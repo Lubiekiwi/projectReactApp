@@ -1,0 +1,25 @@
+.info {
+    float: right;
+  }
+  .info span {
+    cursor: pointer;
+    display: none;
+    float: right;
+    padding: 0 3px;
+  }
+  
+  .info__modal {
+    background: #fff;
+    color: #000;
+    display: none;
+    height: 20vw;
+    left: 30vw;
+    padding: 50px;
+    position: fixed;
+    top: 20vw;
+    width: 40vw;
+  }
+  
+  .info__modal--visible {
+    display: block;
+  }

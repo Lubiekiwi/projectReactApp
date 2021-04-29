@@ -1,0 +1,12 @@
+.todo{
+    background-image: url(./24167.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.list__header{
+    background-color: rgb(243, 253, 251);
+    margin:10vw auto 6vw auto;
+    padding:3vw 15vw;
+}

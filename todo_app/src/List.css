@@ -1,0 +1,24 @@
+.list{
+    background: linear-gradient(rgb(243, 253, 251), rgb(214, 228, 225));
+    padding:1vw 0;
+    width:40vw;
+    font-size: 1.2rem;
+    border:1px rgb(79, 145, 125) solid;
+}
+.list__countdown{
+    float:left;
+    margin:0 2vw;
+}
+.list__icons {
+    cursor: pointer;
+    display: none;
+    float: right;
+    font-size: 1.2rem;
+    margin:0 2vw;
+  }
+.list:hover .list__icons {
+    display: block;
+  }
+.list:hover .info span {
+    display:block
+  }

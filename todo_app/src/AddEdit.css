@@ -1,0 +1,28 @@
+.add{
+    background: linear-gradient(rgb(243, 253, 251), rgb(214, 228, 225));
+    border:1px rgb(79, 145, 125) solid;
+    position:fixed;
+    left:7vw;
+    top:23.8vw;
+    padding:1vw
+}
+.add-to-list{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.add-to-list__input{
+    padding:1vw 0;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.add-to-list__input label{
+    margin-right: 1vw;
+}
+button{
+    background-color: rgb(228, 247, 245);
+    border:1px rgb(79, 145, 125) solid;
+    border-radius: 5px;
+    margin: 1px 0;
+}
